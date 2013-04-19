@@ -27,5 +27,9 @@
       "js": ["js/jquery.js"]
       // その他CSSなども可能
  	}],
-  	"permissions": ["tabs"]
+  	"permissions": [
+		"tabs",
+	  	"http://*/",
+	    "https://*/"
+    ]
 }
